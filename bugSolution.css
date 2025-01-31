@@ -1,0 +1,11 @@
+/* Correct usage of calc() */
+#container {
+  width: calc(100% - 20px);
+  height: calc(50vh + 10px);
+}
+
+/* Incorrect usage of calc() - Note the spaces around operators */
+/* #container {
+  width: calc( 100% - 20px );
+  height: calc( 50vh + 10px );
+} */
